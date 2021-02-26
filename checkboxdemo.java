@@ -29,12 +29,12 @@ public class checkboxdemo extends Frame
 		CB3 = new Checkbox("Python",false);
 		
 		// Setting X pos, Y pos, width and height of label
-		L1.setBounds(50,100,250,30);
+		L1.setBounds(110,100,250,30);
 		
 		// Setting X pos, Y pos, width and height of Checkbox
-		CB1.setBounds(50,150,60,50);
-		CB2.setBounds(130,150,60,50);
-		CB3.setBounds(200,150,60,50);
+		CB1.setBounds(80,170,60,50);
+		CB2.setBounds(170,170,60,50);
+		CB3.setBounds(250,170,60,50);
 		
 		//Adding label to container
 		add(L1);	
@@ -45,7 +45,7 @@ public class checkboxdemo extends Frame
 		add(CB3);
 		
 		//Setting frame size
-		setSize(400,400);
+		setSize(400,320);
 		setLayout(null);
 		setVisible(true);  
 	}
