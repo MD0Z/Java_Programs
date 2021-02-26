@@ -51,7 +51,6 @@ public class checkboxdemo extends Frame
 		setVisible(true);  
 	}
 
-
 	//driver class
 	public static void main(String[] args)
 	{
