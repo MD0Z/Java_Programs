@@ -11,9 +11,9 @@ class Button_program extends Frame
 		//Creating new Button
 		Button B1,B2,B3,B4;
 
-		//To set Button text use
+		//To set Label text use
 		L1 = new Label("Click on the language you speak");
-		
+		//To set Button text use
 		B1 = new Button("Hindi");
 		B2 = new Button("English");
 		B3 = new Button("Hindi + English");
